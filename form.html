@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./style/style.css" />
+
+    <title>Curitour</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Curitour</h1>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="banner-container">
+    <div id="banner-background"></div>
+    <div class="form-container">
+      <h1>Cadastre-se</h1>
+      <form action="formAction.html" method="get">
+        <div class="form-row">
+          <label for="name">Nome</label>
+          <input type="text" pattern="^[A-Za-z\s]+$" title="Por favor, insira apenas letras" name="name" id="name" required />
+        </div>
+
+        <div class="form-row">
+          <label for="surname">Sobrenome</label>
+          <input type="text" pattern="^[A-Za-z\s]+$" title="Por favor, insira apenas letras" name="surname" id="surname"  required />
+        </div>
+
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" name="email" title="name@email.com" id="email" required />
+          </div>
+
+          <button class="action-button" type="submit" id="form-button">
+            Concluir Cadastro
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+    <footer class="single-page-footer">
+      <div>
+        <p>&copy; 2024 Curitour. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>

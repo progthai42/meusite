@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Site</title>
+    <link rel="stylesheet" type="text/css" href="./style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Ethiopic:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Curitour</h1>
+        <ul>
+          <li><a href="about.html">Sobre</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="banner-container">
+        <div id="banner-background"></div>
+        <span id="banner">
+          <section>
+            <h2 style="font-weight: bold">Bem-vindo ao Curitour!</h2>
+            <p>
+              Descubra os sabores únicos de Curitiba enquanto explora a cidade
+              de uma maneira inesquecível. Nosso guia foi feito para quem ama
+              viajar e acredita que a melhor forma de conhecer um lugar é
+              através de sua culinária.
+            </p>
+          </section>
+          <section id="servicos">
+            <h2 style="text-decoration: underline">
+              Comece sua aventura <span id="arrow">⤷</span>
+            </h2>
+          </section>
+          <button
+            class="action-button"
+            id="banner-button"
+            onclick="window.location.href='form.html'"
+          >
+            Cadastre-se
+          </button>
+        </span>
+      </div>
+    </main>
+
+    <div class="titulo-meio">
+      <h2>Te convidamos a explorar Curitiba de uma forma única</h2>
+    </div>
+
+    <footer class="single-page-footer">
+      <div>
+        <p>&copy; 2024 Curitour. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="./src/index.js"></script>
+  </body>
+</html>
