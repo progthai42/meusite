@@ -36,7 +36,7 @@ Este projeto utiliza as seguintes tecnologias e ferramentas:
    git clone https://github.com/seu-usuario/Curitour.git
    ```
 2. Abra o arquivo `index.html` em um navegador de sua preferência.
-3. Ou acesse diretamente a versão publicada no GitHub Pages: **[link-do-projeto](https://seu-usuario.github.io/Curitour/)**.
+3. Ou acesse diretamente a versão publicada no GitHub Pages: **[link-do-projeto](https://progthai42.github.io/meusite/)**.
 
 ---
 
